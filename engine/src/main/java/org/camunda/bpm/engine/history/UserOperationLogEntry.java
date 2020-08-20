@@ -134,6 +134,8 @@ public interface UserOperationLogEntry {
   public static String CATEGORY_OPERATOR = "Operator";
   public static String CATEGORY_TASK_WORKER = "TaskWorker";
 
+  String OPERATION_TYPE_SET_VARIABLES_BATCH = "SetVariablesBatch";
+
   /** The unique identifier of this log entry. */
   String getId();
 
